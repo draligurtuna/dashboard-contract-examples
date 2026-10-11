@@ -2,7 +2,7 @@
 
 Small, dependency-free JavaScript examples by Ali Gürtuna, creator of [AGProLabs](https://www.agprolabs.com/).
 
-A dashboard should have a clear data contract before visual styling. This repository makes two narrow contracts executable: deterministic ranking of already-normalized rows, and unit-aware conversion with explicit invalid states.
+A dashboard should have a clear data contract before visual styling. This repository makes three narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, and metric comparison with explicit provenance boundaries.
 
 ## Interactive lab
 
@@ -63,3 +63,17 @@ The suite checks ordering across all 24 permutations of a four-row fixture, inpu
 No live feed requests, private Pine source, API keys or personal measurements are included. Adapt the contracts deliberately and expand the tests for your own source and interface.
 
 Prepared with AI assistance. The published examples are accompanied by locally executed assertions so their scope is reproducible.
+
+## Metric comparison contract
+
+The additional pure function in `metric-contract.mjs` preserves measurement semantics before calculating a difference. It requires a finite numeric value and explicit metric, unit, currency, interval, session, trusted methodology basis and a separately established freshness state. It returns `unavailable`, `incomparable` or `comparable`; incompatible contracts never produce a numeric difference. This module is not wired into the interactive ranking/length lab above.
+
+Run its isolated fixtures with:
+
+```sh
+node --test metric-contract.test.mjs
+```
+
+Eleven local Node.js assertions passed: matching contracts, five metadata mismatch types, unknown freshness, missing methodology, null, infinity and subtraction overflow. These are synthetic checks, not validation of a live feed or the proprietary TradingView implementation. Trusted adapters must validate allowed combinations and assign basis IDs; they must not accept arbitrary equivalence claims from untrusted payloads. Freshness requires a separate source-time/session policy. No FX conversion or unit inference is performed.
+
+For instrument-selection context, see the [commodity screening guide](https://www.agprolabs.com/insights/screen-commodities-tradingview/). For interpretation boundaries, see [relative volume versus liquidity](https://www.agprolabs.com/insights/relative-volume-vs-liquidity/). The [companion technical walkthrough](https://dev.to/agprolabs/a-dashboard-metric-needs-units-provenance-and-a-failure-state-2h12) explains the states and rendering decisions. AGProLabs is my own project; these references disclose that relationship. Prepared with AI assistance.

@@ -4,6 +4,24 @@ Small, dependency-free JavaScript examples by Ali Gürtuna, creator of [AGProLab
 
 A dashboard should have a clear data contract before visual styling. This repository makes two narrow contracts executable: deterministic ranking of already-normalized rows, and unit-aware conversion with explicit invalid states.
 
+## Interactive lab
+
+[Open the Dashboard Contract Lab](https://draligurtuna.github.io/dashboard-contract-examples/) to change the synthetic score fixtures, reorder their arrival, and try valid or invalid lengths. The page runs these same two functions in the browser. It uses native labeled controls, visible status text and no analytics or live feed.
+
+The UI preserves raw scores for ordering and shows rounding separately. Empty fields produce invalid states rather than zero. Rejected inputs clear the previous result. The lab is independently designed; it does not simulate the proprietary Crypto Setup Planner algorithm.
+
+### Browser smoke checks
+
+1. Reorder the incoming rows: the ranked output stays ALPHA, GAMMA, BETA, DELTA for the default values.
+2. Clear ALPHA or enter 100.0001: no ranking rows remain and INVALID SCORE is visible.
+3. Reset the example: the four rows return.
+4. Clear length: the previous conversion disappears and INVALID_NUMBER is visible.
+5. Enter zero: the result is 0 mm.
+6. Enter -1 or 1000001: OUT_OF_RANGE is visible.
+7. Reset length and switch the unit to mm: the result is 12.5 mm, using the original input.
+
+These focused browser checks passed in Chrome. A 390 px viewport check found no horizontal overflow. This is not a full accessibility or cross-browser certification.
+
 ## Run the examples
 
 Use a currently supported Node.js runtime with its built-in test runner. No package installation or credentials are needed.
@@ -16,6 +34,7 @@ Files:
 
 - contracts.mjs — the two pure functions.
 - contracts.test.mjs — reproducible assertions, including every ordering of a four-row fixture.
+- index.html — the interactive learning interface, served over HTTP with a local module import.
 
 ## Ranking contract
 
@@ -33,7 +52,7 @@ toMillimetres(value, unit) accepts a numeric value and either cm or mm. It retur
 
 The maximum input of 1,000,000 is an illustrative application boundary. Zero is valid. Numeric strings, NaN and Infinity are rejected. A negative value is outside this example's domain. Validation order is explicit: invalid number, invalid unit, then range.
 
-The example does not parse localized text, handle browser number-entry behavior or announce accessible UI updates. Those belong to separate interface tests. Preserve calculation precision separately from display formatting.
+The pure function does not parse localized text or control browser number-entry behavior. The separate lab uses valueAsNumber, explicitly rejects blanks, and exposes status updates through polite live regions. Locale handling still requires deliberate testing for each supported browser. Preserve calculation precision separately from display formatting.
 
 I also maintain an [educational calculator directory](https://www.aligurtuna.com/hesaplama-programlari/). This repository's length converter is an independent software example, not a medical formula or validation of those website tools.
 
@@ -41,6 +60,6 @@ I also maintain an [educational calculator directory](https://www.aligurtuna.com
 
 The suite checks ordering across all 24 permutations of a four-row fixture, input preservation, score/identity boundaries, duplicate rejection, valid unit transitions and invalid conversion states. It does not establish market profitability, production performance, clinical accuracy, browser accessibility or locale compatibility.
 
-No network requests, private Pine source, API keys or personal measurements are included. Adapt the contracts deliberately and expand the tests for your own source and interface.
+No live feed requests, private Pine source, API keys or personal measurements are included. Adapt the contracts deliberately and expand the tests for your own source and interface.
 
 Prepared with AI assistance. The published examples are accompanied by locally executed assertions so their scope is reproducible.

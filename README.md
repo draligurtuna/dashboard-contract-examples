@@ -77,3 +77,17 @@ node --test metric-contract.test.mjs
 Eleven local Node.js assertions passed: matching contracts, five metadata mismatch types, unknown freshness, missing methodology, null, infinity and subtraction overflow. These are synthetic checks, not validation of a live feed or the proprietary TradingView implementation. Trusted adapters must validate allowed combinations and assign basis IDs; they must not accept arbitrary equivalence claims from untrusted payloads. Freshness requires a separate source-time/session policy. No FX conversion or unit inference is performed.
 
 For instrument-selection context, see the [commodity screening guide](https://www.agprolabs.com/insights/screen-commodities-tradingview/). For interpretation boundaries, see [relative volume versus liquidity](https://www.agprolabs.com/insights/relative-volume-vs-liquidity/). The [companion technical walkthrough](https://dev.to/agprolabs/a-dashboard-metric-needs-units-provenance-and-a-failure-state-2h12) explains the states and rendering decisions. AGProLabs is my own project; these references disclose that relationship. Prepared with AI assistance.
+
+## Series identity contract
+
+The additional model in `series-identity.mjs` separates display labels from a declared dataset identity. Provider, full symbol, instrument kind, timeframe, session, currency, volume semantics and metadata revision are preserved in an ordered structured encoding. Dated contracts require a contract identity; continuous histories require an explicit adjusted or unadjusted policy. Unknown or missing required fields return an unavailable key instead of a guessed default.
+
+```sh
+node --test series-identity.test.mjs
+```
+
+Fourteen locally executed synthetic assertions passed, including input field-order stability, provider/timeframe/revision separation, adjustment-policy separation, unknown metadata blocking, dated-contract separation and safe delimiter/quote serialization. The [interactive CodePen lab](https://codepen.io/editor/Ali-G-rtuna/pen/01a12cb8-a439-77b6-bfbe-3c5d1ed6a5e3) exposes the same review exercise. Open `series-identity-lab.html` locally for the standalone, dependency-free version; its inputs do not leave the browser. Selected unknown-volume and policy-change states and the 14-check browser runner were verified in Chrome. No cross-browser or full accessibility certification is claimed.
+
+This is an illustrative request contract, not a full provider schema, provenance attestation, freshness policy, cryptographic fingerprint or execution identifier. Trusted source adapters must validate allowed instrument conventions and metadata; declaring a field does not establish its truth. The model does not validate a live feed or reproduce the proprietary Crypto Setup Planner source.
+
+For the domain context, compare [gold quotations, futures and funds](https://www.agprolabs.com/insights/gold-screening-spot-futures-etf/), review [oil rollover conventions](https://www.agprolabs.com/insights/oil-screening-futures-rollover/), and read the owned [Crypto Setup Planner product documentation](https://www.agprolabs.com/product/crypto-setup-planner/). The [companion engineering note](https://agprolabs.hashnode.dev/a-ticker-label-is-not-a-safe-market-data-cache-key) explains why a short ticker is an insufficient cache boundary. These references disclose the author's own project. Educational analysis only, not financial advice.

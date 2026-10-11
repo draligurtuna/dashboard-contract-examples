@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Contract Lab — Ali Gürtuna / AGProLabs</title>
+  <meta name="description" content="Try deterministic score ranking and explicit unit validation in a small, open JavaScript learning tool. Synthetic fixtures, visible errors and reproducible tests.">
+  <link rel="canonical" href="https://draligurtuna.github.io/dashboard-contract-examples/">
+  <meta name="color-scheme" content="dark">
+  <style>
+    :root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#e2e8f0;background:#0b1221;font-synthesis:none;--muted:#b1bed0;--border:#334155;--blue:#2563eb;--green:#22c5a6;--pink:#f472b6;--gold:#f5bd5c}
+    *{box-sizing:border-box}body{margin:0}a{color:#9cc2ff;text-underline-offset:.2em}a:hover{color:#d6e6ff}button,input,select{font:inherit}button,input,select{border:1px solid #61748d;border-radius:10px}button{padding:.72rem 1rem;background:#1d4ed8;color:white;cursor:pointer;font-weight:650}button:hover{background:#2563eb}button.secondary{background:#1e293b}input,select{padding:.65rem .75rem;background:#0b1221;color:#f5f7fa;min-width:0}input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #f5bd5c;outline-offset:4px}header{background:#2563eb;padding:1rem max(1.25rem,calc((100vw - 1160px)/2));font-weight:700;letter-spacing:.02em}main{max-width:1160px;margin:0 auto;padding:2.2rem 1.25rem 3rem}.eyebrow{color:#a5b4fc;text-transform:uppercase;letter-spacing:.13em;font-size:.78rem;font-weight:750}h1{font-size:clamp(2.15rem,5vw,3.7rem);line-height:1.06;letter-spacing:-.035em;max-width:850px;margin:.8rem 0 1.2rem}h2{font-size:1.45rem;margin:0 0 .8rem}h3{font-size:1rem;margin:0 0 .7rem}p{line-height:1.65;color:var(--muted);margin:.7rem 0}.intro{max-width:850px}.notice{border-left:3px solid var(--gold);padding:.9rem 1rem;background:#182130;margin:1.5rem 0 2rem;color:#ead1a1;line-height:1.6}.grid{display:grid;grid-template-columns:1.35fr 1fr;gap:1.25rem}.card{padding:1.4rem;background:#0f172a;border:1px solid var(--border);border-radius:18px}.wide{grid-column:1/-1}.score-inputs{display:grid;grid-template-columns:1fr 1fr;gap:.85rem;margin:1.1rem 0}label{display:grid;gap:.45rem;font-size:.88rem;font-weight:650}small,.help{color:var(--muted);font-size:.85rem;line-height:1.5}.actions{display:flex;flex-wrap:wrap;gap:.65rem;margin:1.1rem 0}.feed{overflow-wrap:anywhere;font: .84rem/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;color:#b3c8e5}.table-wrap{overflow-x:auto;margin:1rem 0}table{width:100%;border-collapse:collapse;font-size:.9rem}caption{text-align:left;font-weight:650;color:#c2d0e1;padding-bottom:.7rem}th{color:#b1bed0;text-align:left;font-size:.8rem;font-weight:650}th,td{padding:.78rem .55rem;border-bottom:1px solid #334155}td:first-child{color:#94a3b8}td:last-child{color:var(--green);font-variant-numeric:tabular-nums}.status{padding:.8rem 1rem;border-radius:10px;background:#18352f;color:#91edd3;line-height:1.5}.status.error{background:#3a2034;color:#ffbbdc}.conversion{display:grid;grid-template-columns:1fr .7fr;gap:.8rem;margin:1.1rem 0}.answer{font-size:2.2rem;font-weight:750;line-height:1.2;margin:1.1rem 0;color:#f5f7fa;overflow-wrap:anywhere}.answer span{font-size:1rem;color:#b1bed0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.steps p{font-size:.9rem}code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.9em;color:#c7d2fe}.resource{margin-top:1.2rem;padding-top:1rem;border-top:1px solid var(--border)}footer{margin-top:1.5rem;font-size:.85rem;line-height:1.7;color:#b1bed0}.footer-links{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;margin-bottom:.6rem}[hidden]{display:none!important}@media(max-width:840px){.grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.card{padding:1.15rem}main{padding-top:1.6rem}}@media(max-width:420px){.score-inputs{grid-template-columns:1fr}.conversion{grid-template-columns:1fr}button{width:100%}}
+  </style>
+</head>
+<body>
+  <header>AGProLabs · Dashboard Contract Lab</header>
+  <main>
+    <div class="eyebrow">Interactive engineering example · No installation</div>
+    <h1>Make the data rules visible.</h1>
+    <p class="intro">A polished dashboard needs more than attractive cells. Its ordering and invalid states should be predictable. Change the inputs below to explore two small JavaScript contracts that run entirely in your browser.</p>
+    <div class="notice"><strong>Synthetic data, independent example.</strong> These rows are invented fixtures. Scores are not market data or probabilities. This lab does not reproduce Crypto Setup Planner's proprietary Pine logic, evaluate trading opportunities, or validate health calculations.</div>
+    <div class="grid">
+      <section class="card" aria-labelledby="ranking-title">
+        <div class="eyebrow">01 / Stable ordering</div>
+        <h2 id="ranking-title">Equal scores need a tie rule.</h2>
+        <p>Rows sort by the <strong>raw score descending</strong>, then the normalized identity ascending. Rearranging the incoming rows should leave the result unchanged.</p>
+        <div class="score-inputs">
+          <label for="alpha">DEMO:ALPHA <input id="alpha" type="number" min="0" max="100" step="any" value="84.04" inputmode="decimal"></label>
+          <label for="beta">DEMO:BETA <input id="beta" type="number" min="0" max="100" step="any" value="84.03" inputmode="decimal"></label>
+          <label for="gamma">DEMO:GAMMA <input id="gamma" type="number" min="0" max="100" step="any" value="84.04" inputmode="decimal"></label>
+          <label for="delta">DEMO:DELTA <input id="delta" type="number" min="0" max="100" step="any" value="69" inputmode="decimal"></label>
+        </div>
+        <p class="help">Use finite scores from 0 to 100. Clearing a field creates an invalid input; a blank is never treated as zero.</p>
+        <div class="actions"><button id="reorder" type="button">Reorder incoming rows</button><button id="reset" type="button" class="secondary">Reset example</button></div>
+        <div id="feed-order" class="feed"></div>
+        <div class="table-wrap">
+          <table>
+            <caption>Validated ranking · raw and rounded scores</caption>
+            <thead><tr><th scope="col">Rank</th><th scope="col">Identity</th><th scope="col">Raw</th><th scope="col">Display</th></tr></thead>
+            <tbody id="ranked-rows"></tbody>
+          </table>
+        </div>
+        <div id="rank-status" class="status" role="status" aria-live="polite" aria-atomic="true"></div>
+        <p class="resource">For the actual product panel, see the <a href="https://www.agprolabs.com/insights/how-to-read-crypto-setup-planner-dashboard/" rel="noopener">Crypto Setup Planner dashboard guide</a>. A score and a quality gate answer different questions; this lab only demonstrates ordering.</p>
+      </section>
+      <section class="card" aria-labelledby="conversion-title">
+        <div class="eyebrow">02 / Explicit validation</div>
+        <h2 id="conversion-title">A result needs its unit.</h2>
+        <p>Convert centimetres or millimetres while keeping the original value and unit visible. Invalid input produces a named state instead of a misleading result.</p>
+        <div class="conversion">
+          <label for="length">Length <input id="length" type="number" min="0" max="1000000" step="any" value="12.5" inputmode="decimal"></label>
+          <label for="unit">Input unit <select id="unit"><option value="cm">Centimetres (cm)</option><option value="mm">Millimetres (mm)</option></select></label>
+        </div>
+        <p class="help">Zero is valid. The maximum input of 1,000,000 is an illustrative application boundary. A negative, blank or non-finite input is invalid.</p>
+        <div id="conversion-answer" class="answer"></div>
+        <div id="conversion-status" class="status" role="status" aria-live="polite" aria-atomic="true"></div>
+        <div class="actions"><button id="empty-length" type="button" class="secondary">Try an empty input</button><button id="reset-length" type="button" class="secondary">Reset length</button></div>
+        <p>Try 12.5 cm → 125 mm, switch to mm, then clear the field. The original pair and result state should tell the same story.</p>
+        <p class="resource">I also maintain an <a href="https://www.aligurtuna.com/hesaplama-programlari/" rel="noopener">educational calculator directory</a>. This converter is an independent length example and does not establish medical accuracy or the validity of those website tools.</p>
+      </section>
+      <section class="card wide" aria-labelledby="contract-title">
+        <h2 id="contract-title">What to look for</h2>
+        <div class="steps">
+          <div><h3>1. Validate at the boundary</h3><p><code>rankRows</code> rejects duplicate or malformed identities and scores outside its domain. An interface must also handle blank and invalid number fields before calling a calculation.</p></div>
+          <div><h3>2. Preserve raw meaning</h3><p>84.04 and 84.03 both display as 84.0 here. Sorting uses the original values. The unit converter keeps its original value/unit pair rather than showing a number without context.</p></div>
+          <div><h3>3. Keep the failure visible</h3><p>A rejected score clears the ranking instead of presenting stale rows as current. Length errors remove the previous output. Status messages remain available to screen readers.</p></div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-links"><a href="https://www.agprolabs.com/" rel="noopener">AGProLabs</a><a href="https://github.com/draligurtuna/dashboard-contract-examples" rel="noopener">Source and reproducible tests</a></div>
+      By Ali Gürtuna, creator of AGProLabs. Prepared with AI assistance. No sign-in, tracking, personal measurements or live feed requests. Tests cover these narrow examples; they do not establish investment returns, clinical accuracy or production performance.
+    </footer>
+  </main>
+  <script type="module">
+    import {rankRows,toMillimetres} from './contracts.mjs';
+    const ids=['ALPHA','BETA','GAMMA','DELTA'];
+    const defaults=[84.04,84.03,84.04,69];
+    let order=[2,0,3,1];
+    const byId=id=>document.getElementById(id);
+    const finiteInput=id=>{const input=byId(id);return input.value.trim()===''?NaN:input.valueAsNumber;};
+    function status(node,message,invalid){node.textContent=message;node.classList.toggle('error',invalid);}
+    function showRanking(){
+      byId('feed-order').textContent='Incoming: '+order.map(i=>'DEMO:'+ids[i]).join(' → ');
+      const body=byId('ranked-rows');body.replaceChildren();
+      try{
+        const rows=order.map(i=>({id:'DEMO:'+ids[i],score:finiteInput(ids[i].toLowerCase())}));
+        const ranked=rankRows(rows);
+        ranked.forEach((row,i)=>{const tr=document.createElement('tr');[i+1,row.id,String(row.score),row.score.toFixed(1)].forEach(value=>{const cell=document.createElement('td');cell.textContent=String(value);tr.append(cell);});body.append(tr);});
+        status(byId('rank-status'),'READY · Raw score descending, identity ascending on ties.',false);
+      }catch{
+        status(byId('rank-status'),'INVALID SCORE · Enter a finite value from 0 through 100 in every row. No ranking is displayed.',true);
+      }
+    }
+    function showConversion(){
+      const result=toMillimetres(finiteInput('length'),byId('unit').value);
+      const answer=byId('conversion-answer');answer.replaceChildren();
+      if(result.status==='READY'){
+        answer.append(document.createTextNode(String(result.value)+' '));const unit=document.createElement('span');unit.textContent=result.unit;answer.append(unit);
+        status(byId('conversion-status'),'READY · Original input: '+String(result.input.value)+' '+result.input.unit+'. Output unit: mm.',false);
+      }else{
+        answer.textContent='No valid result';
+        const message={INVALID_NUMBER:'Enter a finite number; an empty input is not zero.',INVALID_UNIT:'Choose cm or mm.',OUT_OF_RANGE:'Use a value from 0 through 1,000,000.'}[result.status];
+        status(byId('conversion-status'),result.status+' · '+message,true);
+      }
+    }
+    ids.forEach(id=>byId(id.toLowerCase()).addEventListener('input',showRanking));
+    byId('reorder').addEventListener('click',()=>{order=[order[1],order[2],order[3],order[0]];showRanking();});
+    byId('reset').addEventListener('click',()=>{ids.forEach((id,i)=>{byId(id.toLowerCase()).value=String(defaults[i]);});order=[2,0,3,1];showRanking();});
+    byId('length').addEventListener('input',showConversion);byId('unit').addEventListener('change',showConversion);
+    byId('empty-length').addEventListener('click',()=>{byId('length').value='';showConversion();});
+    byId('reset-length').addEventListener('click',()=>{byId('length').value='12.5';byId('unit').value='cm';showConversion();});
+    showRanking();showConversion();
+  </script>
+</body>
+</html>
+

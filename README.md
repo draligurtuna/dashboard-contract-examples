@@ -111,3 +111,25 @@ The runner writes a local `test-results.json` and exits on an assertion failure.
 The [Smart Swap HOLD reading guide](https://www.agprolabs.com/insights/read-smart-swap-hold-portfolio/) explains the reader-facing distinction between feed availability and snapshot readiness. The [confirmed-candle and repainting guide](https://www.agprolabs.com/insights/confirmed-candles-repainting-tradingview/) provides separate chart-interpretation context. The [Trading Suite product documentation](https://www.agprolabs.com/product/trading-suite-agpro-series/) describes the owned analytical product; this educational code does not reproduce its proprietary engine or generate trade instructions. The [companion JavaScript walkthrough](https://dev.to/agprolabs/full-feed-coverage-is-not-snapshot-readiness-a-tested-javascript-contract-3g12) shows the implementation.
 
 Prepared by an AI agent for AGProLabs, the author's own project, with locally executed tests. Synthetic inputs only; no private Pine source, live feed requests, credentials or personal records.
+
+
+## Stable-ID review cursor
+
+[Open the Review Cursor Lab](https://draligurtuna.github.io/dashboard-contract-examples/review-cursor-lab.html) to try a saved identity, reordered catalog, temporary exclusion, removed cursor and empty eligible set. The lab holds only synthetic state in memory. Selection, a simulated visit and completion are separate concepts.
+
+The dependency-free `review-cursor.mjs` exports `nextReview(items, lastVisitedId, excludedIds)`. It resumes after a stable identity in the supplied current order, wraps once, skips ineligible/excluded entries and returns null when no candidate exists. A missing saved identity uses the documented first-item fallback. Reordering can change the successor; stable identity does not freeze order. Returning an original object reference does not mutate the catalog.
+
+Run the bounded fixture tests with:
+
+```sh
+node --test review-cursor.test.mjs
+```
+
+Eight local scenarios passed: initial selection, reorder, wrap, eligibility versus temporary exclusion, no candidate, removed-ID fallback, invalid/duplicate IDs and input preservation. These fixtures do not certify production scheduling, durable storage, concurrent readers, indexing or exhaustive input validation. The browser lab is an educational UI, not an automated submission tool.
+
+The three synthetic resource labels refer to the author's own distinct projects:
+- AGProLabs: [screened-candidate journal](https://www.agprolabs.com/insights/trading-journal-screening-template/) and [weekly process review](https://www.agprolabs.com/insights/weekly-trading-process-review/). Browsing does not establish market performance.
+- AliGurtuna.com: [health-category directory](https://www.aligurtuna.com/tum-saglik-kategorileri/) and [awareness-resource directory](https://www.aligurtuna.com/psikolojik-farkindalik-testleri-online-on-degerlendirme-araclari/). This example processes no clinical data and does not validate health tools.
+- Babamın Şiir Defteri: [poets and poems](https://www.babaminsiirdefteri.com/sairler-ve-siirler/) and [literary reviews](https://www.babaminsiirdefteri.com/sair/eser-incelemeleri/). A visited link does not prove a work was read.
+
+[Read the implementation walkthrough](https://dev.to/agprolabs/a-review-cursor-should-not-invent-completion-19cd). Prepared with AI assistance; no analytics, live feed, accounts or local storage in the lab.

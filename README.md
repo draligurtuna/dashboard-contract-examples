@@ -158,3 +158,17 @@ The embedded formatter passed the 20 synthetic assertions published in the [impl
 For the owned reading context, see [win rate versus expectancy](https://www.agprolabs.com/insights/win-rate-vs-expectancy/), [drawdown series identity](https://www.agprolabs.com/insights/maximum-drawdown-trading-review/) and [cost assumptions](https://www.agprolabs.com/insights/risk-reward-after-fees/). These are resources from the author's own project, not independent endorsements. Prepared with AI assistance.
 
 
+
+## Volume unit workbook
+
+[Open the Volume Unit Workbook](https://draligurtuna.github.io/dashboard-contract-examples/volume-unit-workbook.html) to load six synthetic cases and edit a declared quantity, volume meaning, price and currency. All inputs stay in browser memory. Loading or editing clears the previous result; no live feed or storage is used.
+
+The independent `volume-unit-workbook.mjs` module distinguishes approximate base-quantity × price, declared quote amount, unresolved contract specifications, nonmonetary tick counts and unknown units. `compareThreshold` only compares finite nonnegative monetary results and thresholds with the same declared currency label. No currency conversion, provider attestation, contract multiplier, session policy or order-book assessment is inferred.
+
+```sh
+node --test volume-unit-workbook.test.mjs
+```
+
+Twenty local tests passed for the six cases, observed zero versus missing quantity, strict numeric types, sign/finiteness, base price requirements, overflow, safe tick counts, threshold boundaries, currency mismatch and input preservation. These are bounded synthetic model tests, not live-browser, real-feed, proprietary Pine, financial-performance or full accessibility validation. Currency-label syntax and uppercase UI normalization do not establish a source unit's truth.
+
+For the author's domain context, see [turnover thresholds and volume units](https://www.agprolabs.com/insights/turnover-thresholds-volume-units/) and [global stock currencies and sessions](https://www.agprolabs.com/insights/global-stock-screening-currencies/). These are author-maintained references; this JavaScript example does not reproduce Crypto Setup Planner. Prepared with AI assistance for AGProLabs. Educational analysis only; no financial advice or guaranteed outcome.

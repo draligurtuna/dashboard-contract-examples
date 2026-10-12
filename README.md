@@ -2,7 +2,7 @@
 
 Small, dependency-free JavaScript examples by Ali Gürtuna, creator of [AGProLabs](https://www.agprolabs.com/).
 
-A dashboard should have a clear data contract before visual styling. This repository makes six narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, metric comparison with explicit provenance boundaries, declared series identity, snapshot readiness, and stable-ID review selection.
+A dashboard should have a clear data contract before visual styling. This repository makes seven narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, metric comparison with explicit provenance boundaries, declared series identity, snapshot readiness, stable-ID review selection, and flat observation capture.
 
 ## Interactive lab
 
@@ -133,3 +133,16 @@ The three synthetic resource labels refer to the author's own distinct projects:
 - Babamın Şiir Defteri: [poets and poems](https://www.babaminsiirdefteri.com/sairler-ve-siirler/) and [literary reviews](https://www.babaminsiirdefteri.com/sair/eser-incelemeleri/). A visited link does not prove a work was read.
 
 [Read the implementation walkthrough](https://dev.to/agprolabs/a-review-cursor-should-not-invent-completion-19cd). Prepared with AI assistance; no analytics, live feed, accounts or local storage in the lab.
+
+
+## Flat observation capture
+
+The independent `observation-record.mjs` example captures five primitive fields into a new frozen object. It avoids keeping mutable form objects as historical records. The caller supplies an explicit source URL and epoch-millisecond observation time; it does not infer provenance or use the current time automatically.
+
+```sh
+node --test observation-record.test.mjs
+```
+
+Eight bounded local scenarios passed: independent object identity, later source edits, strict-mode output-edit rejection, exclusion of extra fields, invalid text, unsafe source URLs, time boundaries and input preservation. Only selected primitive fields are copied. Freezing is not a deep-copy mechanism, durable storage, a signature or proof that an observation happened. The HTTPS rule permits credentials-free URLs; it is not an allowlist, access check, public-URL test or privacy scrubber. HTTPS URLs can still contain sensitive query parameters. Use trusted plain inputs and a reviewed publication adapter. Getters, hostile proxies, payload size limits and HTML safety are outside this narrow example.
+
+For chart-reading context, the author's [multi-timeframe disagreement guide](https://www.agprolabs.com/insights/multi-timeframe-analysis-conflict/) separates each source interval's role and confirmation. The [forward-testing guide](https://www.agprolabs.com/insights/forward-test-tradingview-indicator/) provides a related evidence-recording workflow. This independent JavaScript code does not reproduce private Pine source or establish market, clinical or editorial correctness.

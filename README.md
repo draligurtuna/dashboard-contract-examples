@@ -2,7 +2,7 @@
 
 Small, dependency-free JavaScript examples by Ali Gürtuna, creator of [AGProLabs](https://www.agprolabs.com/).
 
-A dashboard should have a clear data contract before visual styling. This repository makes seven narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, metric comparison with explicit provenance boundaries, declared series identity, snapshot readiness, stable-ID review selection, and flat observation capture.
+A dashboard should have a clear data contract before visual styling. This repository makes eight narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, metric comparison with explicit provenance boundaries, declared series identity, snapshot readiness, stable-ID review selection, flat observation capture, and explicit metric availability/display units.
 
 ## Interactive lab
 
@@ -146,3 +146,15 @@ node --test observation-record.test.mjs
 Eight bounded local scenarios passed: independent object identity, later source edits, strict-mode output-edit rejection, exclusion of extra fields, invalid text, unsafe source URLs, time boundaries and input preservation. Only selected primitive fields are copied. Freezing is not a deep-copy mechanism, durable storage, a signature or proof that an observation happened. The HTTPS rule permits credentials-free URLs; it is not an allowlist, access check, public-URL test or privacy scrubber. HTTPS URLs can still contain sensitive query parameters. Use trusted plain inputs and a reviewed publication adapter. Getters, hostile proxies, payload size limits and HTML safety are outside this narrow example.
 
 For chart-reading context, the author's [multi-timeframe disagreement guide](https://www.agprolabs.com/insights/multi-timeframe-analysis-conflict/) separates each source interval's role and confirmation. The [forward-testing guide](https://www.agprolabs.com/insights/forward-test-tradingview-indicator/) provides a related evidence-recording workflow. This independent JavaScript code does not reproduce private Pine source or establish market, clinical or editorial correctness.
+
+## Metric display contract
+
+The self-contained [Metric Display Lab](https://draligurtuna.github.io/dashboard-contract-examples/metric-display-lab.html) exposes eight fixed synthetic fixtures. The source is `metric-display-lab.html`; GitHub Pages may need to finish deployment after a commit before this new URL becomes available.
+
+Choose a record, render it, and reset the page. A changed selection clears the previous result. Unavailable, malformed and observed-zero records remain distinct. A share of 0.25 is converted to 25.00%, while a percentage value of 25 is displayed as 25.00% without a second conversion. Counts require nonnegative safe integers. These are illustrative declared-unit rules, not upstream evidence validation or a locale-aware financial formatting library.
+
+The embedded formatter passed the 20 synthetic assertions published in the [implementation and test walkthrough](https://dev.to/agprolabs/do-not-render-unavailable-as-zero-a-unit-aware-javascript-metric-formatter-4525). Local script syntax was checked too. This statement does not certify live-browser integration, full accessibility, real feeds, proprietary Pine runtime performance or clinical tools. The page uses no external scripts, requests, storage or analytics.
+
+For the owned reading context, see [win rate versus expectancy](https://www.agprolabs.com/insights/win-rate-vs-expectancy/), [drawdown series identity](https://www.agprolabs.com/insights/maximum-drawdown-trading-review/) and [cost assumptions](https://www.agprolabs.com/insights/risk-reward-after-fees/). These are resources from the author's own project, not independent endorsements. Prepared with AI assistance.
+
+

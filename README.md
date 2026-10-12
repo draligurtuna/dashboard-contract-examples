@@ -2,7 +2,7 @@
 
 Small, dependency-free JavaScript examples by Ali Gürtuna, creator of [AGProLabs](https://www.agprolabs.com/).
 
-A dashboard should have a clear data contract before visual styling. This repository makes three narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, and metric comparison with explicit provenance boundaries.
+A dashboard should have a clear data contract before visual styling. This repository makes five narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, metric comparison with explicit provenance boundaries, declared series identity, and snapshot readiness.
 
 ## Interactive lab
 
@@ -91,3 +91,21 @@ Fourteen locally executed synthetic assertions passed, including input field-ord
 This is an illustrative request contract, not a full provider schema, provenance attestation, freshness policy, cryptographic fingerprint or execution identifier. Trusted source adapters must validate allowed instrument conventions and metadata; declaring a field does not establish its truth. The model does not validate a live feed or reproduce the proprietary Crypto Setup Planner source.
 
 For the domain context, compare [gold quotations, futures and funds](https://www.agprolabs.com/insights/gold-screening-spot-futures-etf/), review [oil rollover conventions](https://www.agprolabs.com/insights/oil-screening-futures-rollover/), and read the owned [Crypto Setup Planner product documentation](https://www.agprolabs.com/product/crypto-setup-planner/). The [companion engineering note](https://agprolabs.hashnode.dev/a-ticker-label-is-not-a-safe-market-data-cache-key) explains why a short ticker is an insufficient cache boundary. These references disclose the author's own project. Educational analysis only, not financial advice.
+
+## Snapshot readiness contract
+
+`snapshot-readiness.mjs` separates slot coverage from confirmation and explicit completed-close alignment. The caller supplies a non-empty plan of unique symbol/timeframe pairs and a safe-integer expected close for each pair. `assessSnapshot(plan, rows)` returns `WAIT` with a reason or `REVIEW_READY` when the narrow contract is met.
+
+Complete coverage alone never establishes readiness. Missing pairs, duplicate expected rows, unconfirmed sources and mismatched closes remain waiting. Well-formed unrelated rows do not fill required slots. Daily and four-hour closes need not equal each other: each row must match its own declared expected slot. Identity and timeframe normalization belong to a trusted adapter; these strings are exact keys, not aliases.
+
+Run the independent synthetic fixtures:
+
+```sh
+node snapshot-readiness.test.mjs
+```
+
+The runner writes a local `test-results.json` and exits on an assertion failure. Thirteen local tests passed: distinct timeframe closes, complete-but-misaligned coverage, false and truthy-string confirmation, missing and duplicated slots, unrelated symbols, empty or duplicated plans, invalid close times, null rows and input preservation. These checks cover only the illustrative contract. They do not establish freshness, trusted provenance, asynchronous atomicity, calendar correctness, production runtime performance or market outcomes. A source adapter must establish the expected exchange/session closes; an arbitrary timestamp supplied by an untrusted payload is not evidence of alignment. This module is not wired into the browser labs above.
+
+The [Smart Swap HOLD reading guide](https://www.agprolabs.com/insights/read-smart-swap-hold-portfolio/) explains the reader-facing distinction between feed availability and snapshot readiness. The [confirmed-candle and repainting guide](https://www.agprolabs.com/insights/confirmed-candles-repainting-tradingview/) provides separate chart-interpretation context. The [Trading Suite product documentation](https://www.agprolabs.com/product/trading-suite-agpro-series/) describes the owned analytical product; this educational code does not reproduce its proprietary engine or generate trade instructions. The [companion JavaScript walkthrough](https://dev.to/agprolabs/full-feed-coverage-is-not-snapshot-readiness-a-tested-javascript-contract-3g12) shows the implementation.
+
+Prepared by an AI agent for AGProLabs, the author's own project, with locally executed tests. Synthetic inputs only; no private Pine source, live feed requests, credentials or personal records.

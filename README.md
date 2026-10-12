@@ -94,6 +94,8 @@ For the domain context, compare [gold quotations, futures and funds](https://www
 
 ## Snapshot readiness contract
 
+[Open the Snapshot Readiness Lab](https://draligurtuna.github.io/dashboard-contract-examples/snapshot-readiness-lab.html) to switch synthetic coverage, confirmation and close-alignment fixtures. It imports the same independent module; no live data is requested.
+
 `snapshot-readiness.mjs` separates slot coverage from confirmation and explicit completed-close alignment. The caller supplies a non-empty plan of unique symbol/timeframe pairs and a safe-integer expected close for each pair. `assessSnapshot(plan, rows)` returns `WAIT` with a reason or `REVIEW_READY` when the narrow contract is met.
 
 Complete coverage alone never establishes readiness. Missing pairs, duplicate expected rows, unconfirmed sources and mismatched closes remain waiting. Well-formed unrelated rows do not fill required slots. Daily and four-hour closes need not equal each other: each row must match its own declared expected slot. Identity and timeframe normalization belong to a trusted adapter; these strings are exact keys, not aliases.

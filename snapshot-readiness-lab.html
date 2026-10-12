@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snapshot Readiness Lab — AGProLabs educational example</title>
+<meta name="description" content="Try synthetic feed fixtures and distinguish coverage, strict confirmation and declared completed-close alignment in a small JavaScript learning lab.">
+<style>
+:root{color-scheme:dark;--bg:#0f172a;--line:#334155;--text:#e2e8f0;--muted:#a8b7ca;--blue:#2563eb;--ready:#22c5a6;--wait:#f5bd5c}
+*{box-sizing:border-box}body{margin:0;background:#09111f;color:var(--text);font:16px/1.65 system-ui,sans-serif}main{max-width:1080px;padding:24px;margin:auto}header,.card{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:24px;margin-bottom:20px}.brand{display:inline-block;color:white;background:var(--blue);padding:4px 12px;border-radius:6px;font-weight:700;font-size:14px}h1{font-size:clamp(27px,5vw,44px);line-height:1.16;margin:20px 0 12px}h2{font-size:22px;margin-top:0}p{margin:12px 0}a{color:#9ebcff;text-underline-offset:3px}a:hover{color:white}a:focus-visible,select:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--wait);outline-offset:4px}.muted{color:var(--muted)}.controls{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:end}label{display:block;margin-bottom:6px;font-weight:650}select,button{font:inherit;border:1px solid #64748b;color:var(--text);background:#162238;border-radius:8px;padding:10px;max-width:100%}select{width:100%}button{cursor:pointer;background:var(--blue);color:white;padding:10px 18px}.result{border-left:5px solid var(--wait);padding:18px;background:#1d2430;border-radius:8px;margin-top:20px}.result.ready{border-color:var(--ready)}.badge{font-size:23px;font-weight:750;color:var(--wait)}.ready .badge{color:var(--ready)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}.tile{border:1px solid var(--line);border-radius:8px;padding:12px;min-width:0}.tile strong{display:block;font-size:21px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse;text-align:left;font-size:14px}caption{text-align:left;padding:14px;font-weight:650}th,td{padding:12px;border-bottom:1px solid var(--line);white-space:nowrap}th{color:#b4c4d9;background:#18253b}tbody tr:last-child td{border-bottom:0}code{font-size:.94em;color:#c8d6ed;overflow-wrap:anywhere}pre{white-space:pre-wrap;background:#09111f;border:1px solid var(--line);padding:16px;border-radius:8px}.resources{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.resource{padding:16px;border:1px solid var(--line);border-radius:8px}.resource a{font-weight:700}.resource p{font-size:14px;color:var(--muted)}summary{cursor:pointer;font-weight:650}footer{font-size:14px;color:var(--muted);padding-bottom:20px}.notice{border-left:3px solid #818cf8;padding-left:15px}noscript{display:block;padding:20px;background:#362917}@media(max-width:700px){main{padding:14px}header,.card{padding:18px}.grid,.resources{grid-template-columns:1fr}.controls{grid-template-columns:1fr}button{justify-self:start}th,td{padding:9px}}
+</style>
+</head>
+<body><main>
+<header><span class="brand">AGProLabs · Learning lab</span><h1>Full coverage is not snapshot readiness.</h1><p>Six expected slots can all be present while one source remains unconfirmed or belongs to a different completed-close slot. Change the fixture to see these independent boundaries.</p><p class="muted">Synthetic JavaScript example. No live data, account connection, tracking or orders.</p></header>
+<section class="card" aria-labelledby="lab-heading"><h2 id="lab-heading">Try the contract</h2>
+<div class="controls"><div><label for="fixture">Synthetic fixture</label><select id="fixture"><option value="mismatch">All slots present, one close mismatches</option><option value="ready">All required slots meet the declared plan</option><option value="missing">One required slot is missing</option><option value="unconfirmed">All slots present, one source is unconfirmed</option><option value="invalid">All slots present, one close is invalid</option></select></div><button id="reset" type="button">Reset example</button></div>
+<div id="result" class="result" role="status" aria-live="polite" aria-atomic="true"><span class="badge" id="state">Loading example…</span><p id="reason"></p><p id="interpretation"></p></div>
+<div class="grid"><div class="tile"><span>Required-slot coverage</span><strong id="coverage">—</strong></div><div class="tile"><span>Strict confirmation</span><strong id="confirmation">—</strong></div><div class="tile"><span>Declared-close alignment</span><strong id="alignment">—</strong></div></div>
+<div class="table-wrap"><table><caption>Exact slot keys and close times · synthetic UTC plan</caption><thead><tr><th scope="col">Symbol</th><th scope="col">Timeframe</th><th scope="col">Expected close</th><th scope="col">Observed close</th><th scope="col">Confirmed</th></tr></thead><tbody id="rows"></tbody></table></div>
+<noscript>JavaScript is required for the interactive fixture. The contract and explanatory sources below remain readable.</noscript>
+<p class="muted">Daily and four-hour close times do not need to equal each other. Each row must match its own expected slot. The dates above are fixed examples, not a current-market snapshot.</p></section>
+<section class="card"><h2>What this result establishes</h2><p><code>REVIEW_READY</code> means this small, declared contract was met. It does not mean a financial opportunity is qualified, a position should change or a production feed is trustworthy.</p><p>The caller must establish the correct exchange/session calendar and expected completed closes. A close timestamp supplied by an untrusted payload cannot establish alignment by itself. Coverage, confirmation and declared alignment are displayed separately, even when an earlier validation gate prevents the function from continuing.</p><div class="notice"><p>This independent example does not reproduce the proprietary Trading Suite or Smart Swap engine. No calendar inference, data-provider authentication, asynchronous atomicity, freshness policy or profitability assessment is performed.</p></div>
+<details><summary>Reproduce the isolated tests</summary><p>The companion module and 13 synthetic tests are available in the same public repository. Run:</p><pre><code>node snapshot-readiness.test.mjs</code></pre><p>The runner writes <code>test-results.json</code> locally and exits if an assertion fails. Local test success applies to this illustrative code only.</p><p><a href="https://github.com/draligurtuna/dashboard-contract-examples">Read the code and test boundaries on GitHub</a></p></details></section>
+<section class="card"><h2>Continue with the reader-facing context</h2><p class="muted">These links lead to the creator's own project. Read the methodology and limitations before considering any analytical product.</p><div class="resources"><div class="resource"><a href="https://www.agprolabs.com/insights/read-smart-swap-hold-portfolio/">Read a Smart Swap HOLD state</a><p>Separate feed availability, snapshot readiness and the manual review workflow.</p></div><div class="resource"><a href="https://www.agprolabs.com/insights/confirmed-candles-repainting-tradingview/">Confirmed candles and repainting</a><p>Understand the chart-interpretation context of confirmation.</p></div><div class="resource"><a href="https://www.agprolabs.com/product/trading-suite-agpro-series/">Explore Trading Suite</a><p>Review the analytical interface, product scope, access and limitations.</p></div></div></section>
+<footer>Prepared by an AI agent for AGProLabs, Ali Gürtuna's project, using independently designed synthetic fixtures and locally executed tests. Educational software example; no financial advice or guaranteed outcomes.</footer>
+</main>
+<script type="module">
+import { assessSnapshot } from './snapshot-readiness.mjs';
+const daily = Date.parse('2026-10-11T00:00:00Z');
+const fourHour = Date.parse('2026-10-11T20:00:00Z');
+const plan = ['VENUE:A','VENUE:B','VENUE:C'].flatMap(symbol => [
+ {symbol,timeframe:'D',expectedClose:daily},
+ {symbol,timeframe:'4H',expectedClose:fourHour}
+]);
+const fixture = document.getElementById('fixture');
+const byId = id => document.getElementById(id);
+const messages = {
+ SNAPSHOT_MISMATCH:'Every required slot is present and confirmed. One observed close still differs from its own expected slot.',
+ CONTRACT_MET:'Every required slot is present, strictly confirmed and matched to its declared expected close.',
+ INCOMPLETE_COVERAGE:'A required slot is absent. Other rows cannot fill that symbol/timeframe pair.',
+ UNCONFIRMED_SOURCE:'Every required slot is present. One source is not strictly confirmed.',
+ INVALID_CLOSE_TIME:'Every required slot is present and confirmed. One close is not a valid safe-integer timestamp.'
+};
+const key = row => JSON.stringify([row.symbol,row.timeframe]);
+const displayTime = value => Number.isSafeInteger(value) && value >= 0 ? new Date(value).toISOString().replace('T',' ').replace('.000Z',' UTC') : 'INVALID';
+function render(){
+ let rows = plan.map(p => ({symbol:p.symbol,timeframe:p.timeframe,closeTime:p.expectedClose,confirmed:true}));
+ if(fixture.value==='mismatch') rows[5].closeTime -= 4*3600000;
+ if(fixture.value==='missing') rows.pop();
+ if(fixture.value==='unconfirmed') rows[5].confirmed=false;
+ if(fixture.value==='invalid') rows[5].closeTime=NaN;
+ const result=assessSnapshot(plan,rows);
+ const ready=result.state==='REVIEW_READY';
+ byId('result').classList.toggle('ready',ready);
+ byId('state').textContent=result.state;
+ byId('reason').textContent=result.reason.replaceAll('_',' ');
+ byId('interpretation').textContent=messages[result.reason] || 'The declared example contract was not met.';
+ byId('coverage').textContent=`${result.coverage.present} / ${result.coverage.required}`;
+ const complete=rows.length===plan.length;
+ byId('confirmation').textContent=!complete?'Incomplete':rows.every(r=>r.confirmed===true)?'All confirmed':'One unconfirmed';
+ byId('alignment').textContent=!complete?'Incomplete':rows.some(r=>!Number.isSafeInteger(r.closeTime))?'Invalid close':rows.every(r=>r.closeTime===plan.find(p=>key(p)===key(r)).expectedClose)?'All matched':'One mismatched';
+ byId('rows').replaceChildren(...plan.map(slot=>{
+  const row=rows.find(r=>key(r)===key(slot));
+  const tr=document.createElement('tr');
+  [slot.symbol,slot.timeframe,displayTime(slot.expectedClose),row?displayTime(row.closeTime):'MISSING',row?String(row.confirmed):'MISSING'].forEach(value=>{const td=document.createElement('td');td.textContent=value;tr.append(td);});
+  return tr;
+ }));
+}
+fixture.addEventListener('change',render);
+byId('reset').addEventListener('click',()=>{fixture.value='mismatch';render();});
+render();
+</script>
+</body></html>

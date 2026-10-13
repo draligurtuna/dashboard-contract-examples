@@ -202,3 +202,29 @@ Keep the author archive distinct from a specific work or edition. A visited link
 - [Tevfik Fikret — Şair Arşivi](https://www.babaminsiirdefteri.com/sair/tevfik-fikret/)
 - [Didem Madak — Şair Arşivi](https://www.babaminsiirdefteri.com/sair/didem-madak/)
 - [Âşık Veysel — Şair Arşivi](https://www.babaminsiirdefteri.com/sair/asik-veysel/)
+
+
+## Source context and interpretation boundaries
+
+For a reading exercise, separate the analytical job, the page's stated scope and the author's interpretation. These concise references belong to the three projects I maintain; they are not evidence that this sample code is integrated into those sites. AI assisted this navigation update.
+
+### Analytical roles and saved configuration
+
+- [Position size versus indicator score](https://www.agprolabs.com/insights/position-size-vs-indicator-score/)
+- [TradingView indicator versus strategy](https://www.agprolabs.com/insights/tradingview-indicator-vs-strategy/)
+- [Crypto Setup Planner versus Trading Suite](https://www.agprolabs.com/insights/crypto-setup-planner-vs-trading-suite/)
+- [Alerts after a script update](https://www.agprolabs.com/insights/tradingview-alerts-after-script-update/)
+
+### Health-publication scope
+
+Read the publisher's stated boundaries before treating educational text as a personal assessment.
+
+- [Editorial principles](https://www.aligurtuna.com/editoryal-ilkeler/)
+- [Medical content boundaries](https://www.aligurtuna.com/tibbi-icerik-sinirlari/)
+
+### Literary archive format
+
+A collection of stories or essays is a navigation route; retain the specific work title separately in your own record.
+
+- [Story archive](https://www.babaminsiirdefteri.com/sair/hikayelerim/)
+- [Essay archive](https://www.babaminsiirdefteri.com/sair/makalelerim/)

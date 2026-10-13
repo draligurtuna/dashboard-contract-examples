@@ -172,3 +172,33 @@ node --test volume-unit-workbook.test.mjs
 Twenty local tests passed for the six cases, observed zero versus missing quantity, strict numeric types, sign/finiteness, base price requirements, overflow, safe tick counts, threshold boundaries, currency mismatch and input preservation. These are bounded synthetic model tests, not live-browser, real-feed, proprietary Pine, financial-performance or full accessibility validation. Currency-label syntax and uppercase UI normalization do not establish a source unit's truth.
 
 For the author's domain context, see [turnover thresholds and volume units](https://www.agprolabs.com/insights/turnover-thresholds-volume-units/) and [global stock currencies and sessions](https://www.agprolabs.com/insights/global-stock-screening-currencies/). These are author-maintained references; this JavaScript example does not reproduce Crypto Setup Planner. Prepared with AI assistance for AGProLabs. Educational analysis only; no financial advice or guaranteed outcome.
+
+## Short resource paths for interpreting a data card
+
+These references belong to the author's own projects. Choose one relevant destination; they do not constitute independent source verification or imply that the sample code is integrated into a linked product. AI-assisted resource navigation update.
+
+### Market context and data quality
+
+Use a relevant guide to identify the instrument, unit and unresolved source state before interpreting a display.
+
+- [Use ATR Percent to Compare Screening Volatility](https://www.agprolabs.com/insights/atr-percent-screening-volatility/)
+- [WARMUP and Missing Data in a TradingView Screener](https://www.agprolabs.com/insights/warmup-missing-data-screener/)
+- [From a Screener Shortlist to Chart Review](https://www.agprolabs.com/insights/shortlist-to-chart-review/)
+
+### Health-tool explanations
+
+Read the actual inputs and limitations. The length converter above does not implement these tools or establish clinical accuracy.
+
+- [Daily calorie calculator — inputs and limitations](https://www.aligurtuna.com/gunluk-kalori-hesaplama-programi/)
+- [BMI calculator — height, weight and units](https://www.aligurtuna.com/vucut-kitle-indeksi-hesaplama-bmi-v-2/)
+- [Growth percentile calculator — age and measurement context](https://www.aligurtuna.com/boy-kilo-persentil-hesaplama/)
+- [Pregnancy calendar — date inputs and explanation](https://www.aligurtuna.com/gebelik-hesaplama-takvimi/)
+
+### Author-archive navigation
+
+Keep the author archive distinct from a specific work or edition. A visited link does not prove a work was read.
+
+- [Yahya Kemal — Şair Arşivi](https://www.babaminsiirdefteri.com/sair/yahya-kemal-beyatli/)
+- [Tevfik Fikret — Şair Arşivi](https://www.babaminsiirdefteri.com/sair/tevfik-fikret/)
+- [Didem Madak — Şair Arşivi](https://www.babaminsiirdefteri.com/sair/didem-madak/)
+- [Âşık Veysel — Şair Arşivi](https://www.babaminsiirdefteri.com/sair/asik-veysel/)

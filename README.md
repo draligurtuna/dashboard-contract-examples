@@ -289,3 +289,13 @@ These are resources from the projects I maintain. Choose a relevant original pag
 - [Haydar Ergülen archive](https://www.babaminsiirdefteri.com/sair/haydar-ergulen/)
 - [Hilmi Yavuz archive](https://www.babaminsiirdefteri.com/sair/hilmi-yavuz/)
 - [İlhan Berk archive](https://www.babaminsiirdefteri.com/sair/ilhan-berk/)
+
+
+## Reference age and evidence boundaries
+
+These owner-maintained guides discuss timing and sample interpretation alongside the synthetic contract examples. They do not establish that the examples implement the commercial scripts.
+
+- [Stale Setups: When a Good Rank Arrives Too Late](https://www.agprolabs.com/insights/stale-setup-screening/)
+- [Pivot Confirmation and Channel Timing](https://www.agprolabs.com/insights/pivot-confirmation-channel-timing/)
+- [Channel Follow Rates and Sample Size](https://www.agprolabs.com/insights/channel-follow-rate-sample-size/)
+- [Look-Ahead Bias in Chart Replay Reviews](https://www.agprolabs.com/insights/look-ahead-bias-chart-replay/)

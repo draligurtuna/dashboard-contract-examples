@@ -228,3 +228,29 @@ A collection of stories or essays is a navigation route; retain the specific wor
 
 - [Story archive](https://www.babaminsiirdefteri.com/sair/hikayelerim/)
 - [Essay archive](https://www.babaminsiirdefteri.com/sair/makalelerim/)
+
+
+## Focused reference routes
+
+A concise map of the author's own resources; choose the original page that matches your reading question.
+
+### Channel structure and access
+
+- [Access and activation](https://www.agprolabs.com/how-access-works/)
+- [Projected channel rails](https://www.agprolabs.com/insights/projected-channel-rails/)
+- [Major and minor price channels](https://www.agprolabs.com/insights/major-minor-price-channels/)
+- [Internal and external price channels](https://www.agprolabs.com/insights/internal-external-price-channels/)
+- [Channel rails and ATR distance](https://www.agprolabs.com/insights/channel-support-resistance-atr-distance/)
+- [Channel quality-score interpretation](https://www.agprolabs.com/insights/channel-quality-score-explained/)
+
+### Health-tool inputs and topic context
+
+- [HOMA-IR calculator — inputs and limits](https://www.aligurtuna.com/homa-ir-hesaplama-insulin-direnci/)
+- [Ovulation calendar — explanation and limits](https://www.aligurtuna.com/ovulasyon-hesaplama-dogurganlik-takibi/)
+- [Radiology topic archive](https://www.aligurtuna.com/radyoloji/)
+
+### Three author archives
+
+- [Ahmed Arif archive](https://www.babaminsiirdefteri.com/sair/ahmed-arif/)
+- [Ahmet Hamdi Tanpınar archive](https://www.babaminsiirdefteri.com/sair/ahmet-hamdi-tanpinar/)
+- [Ahmet Haşim archive](https://www.babaminsiirdefteri.com/sair/ahmet-hasim/)

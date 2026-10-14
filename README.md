@@ -299,3 +299,55 @@ These owner-maintained guides discuss timing and sample interpretation alongside
 - [Pivot Confirmation and Channel Timing](https://www.agprolabs.com/insights/pivot-confirmation-channel-timing/)
 - [Channel Follow Rates and Sample Size](https://www.agprolabs.com/insights/channel-follow-rate-sample-size/)
 - [Look-Ahead Bias in Chart Replay Reviews](https://www.agprolabs.com/insights/look-ahead-bias-chart-replay/)
+
+
+## Original references for a review card
+
+A compact navigation menu for the three projects maintained by the author. These are source-context references, not independent endorsements or integration claims. Prepared with AI assistance.
+
+### Additional analytical reading routes
+
+Choose a guide or collection matching the review question. The examples here do not implement these proprietary tools.
+
+- [Crypto & Stock Market Analysis: A Disciplined Framework](https://www.agprolabs.com/insights/disciplined-crypto-stock-market-analysis/)
+- [Dynamic Price Channels in TradingView: A Practical Guide](https://www.agprolabs.com/insights/dynamic-price-channels-trend-structure/)
+- [Crypto Exchange Monitoring in TradingView](https://www.agprolabs.com/insights/monitor-multiple-crypto-exchanges-tradingview/)
+- [Read Dynamic Channels: Support & Resistance](https://www.agprolabs.com/insights/read-dynamic-channels-support-resistance/)
+- [Rules-Based TradingView Analysis Workflows | Practical Guide](https://www.agprolabs.com/insights/rules-based-tradingview-analysis-workflows/)
+- [Screen Stocks & ETFs in TradingView](https://www.agprolabs.com/insights/screen-stocks-etfs-tradingview/)
+- [TradingView Indicator Alerts: Setup Guide](https://www.agprolabs.com/insights/set-up-tradingview-indicator-alerts/)
+- [Trading Suite: Daily Analysis Workflow](https://www.agprolabs.com/insights/trading-suite-daily-analysis-workflow/)
+- [TradingView Indicators & Screeners Compared](https://www.agprolabs.com/insights/tradingview-indicators-screeners-comparison/)
+- [How to Use TradingView for Technical Analysis](https://www.agprolabs.com/insights/tradingview-technical-analysis-workflow-guide/)
+- [Confirmation & Playbook TradingView Workflows](https://www.agprolabs.com/product-category/confirmation-playbook/)
+- [Defense & Management TradingView Workflows](https://www.agprolabs.com/product-category/defense-management/)
+- [Liquidity & Reclaim TradingView Workflows](https://www.agprolabs.com/product-category/liquidity-reclaim/)
+- [Platform Access TradingView Workflows](https://www.agprolabs.com/product-category/platform-access/)
+- [Risk & Execution TradingView Workflows](https://www.agprolabs.com/product-category/risk-execution/)
+- [SMC & Structure TradingView Workflows](https://www.agprolabs.com/product-category/smc-structure/)
+
+### Awareness resource explanations
+
+Read the scope and limitations before interpreting a self-assessment. This repository does not process clinical results.
+
+- [Aleksitimi Testi: Duyguları Tanıma ve İfade Etme Güçlüğü — açıklama ve sınırlar](https://www.aligurtuna.com/aleksitimi-testi-duygulari-tanima-ve-ifade-etme-guclugu/)
+- [Anksiyete Testi — açıklama ve sınırlar](https://www.aligurtuna.com/anksiyete-testi-kaygi-belirtileri-on-degerlendirme/)
+- [Ayrılık Kaygısı Testi: Bağlanma ve Ayrılma Zorluğu Değerlendirme — açıklama ve sınırlar](https://www.aligurtuna.com/ayrilik-kaygisi-testi-baglanma-ve-ayrilma-zorlugu-degerlendirme/)
+- [Bağlanma Stili Testi: İlişki Bağlanma Eğilimi Değerlendirme — açıklama ve sınırlar](https://www.aligurtuna.com/baglanma-stili-testi-iliski-baglanma-egilimi-degerlendirme/)
+- [Beden Algısı Testi: Beden Memnuniyeti ve Görünüm Baskısı — açıklama ve sınırlar](https://www.aligurtuna.com/beden-algisi-testi-beden-memnuniyeti-ve-gorunum-baskisi/)
+- [Dikkat Dağınıklığı Testi: Odaklanma Güçlüğü Farkındalık Değerlendirmesi — açıklama ve sınırlar](https://www.aligurtuna.com/dikkat-daginikligi-testi-odaklanma-guclugu-farkindalik-degerlendirmesi/)
+- [Duygu Düzenleme Güçlüğü Testi: Tepki ve Duygusal Denge Değerlendirme — açıklama ve sınırlar](https://www.aligurtuna.com/duygu-duzenleme-guclugu-testi-tepki-ve-duygusal-denge-degerlendirme/)
+- [Duygudurum Bozukluğu Testi: Duygusal Dalgalanma ve Çökkünlük — açıklama ve sınırlar](https://www.aligurtuna.com/duygudurum-bozuklugu-testi-duygusal-dalgalanma-ve-cokkunluk/)
+
+### Named author archives
+
+Keep the author archive distinct from the specific work recorded in a source card.
+
+- [Adnan Özer arşivi](https://www.babaminsiirdefteri.com/sair/adnan-ozer/)
+- [Adnan Yücel arşivi](https://www.babaminsiirdefteri.com/sair/adnan-yucel/)
+- [Afşar Timuçin arşivi](https://www.babaminsiirdefteri.com/sair/afsar-timucin/)
+- [Ahmet Ada arşivi](https://www.babaminsiirdefteri.com/sair/ahmet-ada/)
+- [Ahmet Erhan arşivi](https://www.babaminsiirdefteri.com/sair/ahmet-erhan/)
+- [Ahmet Oktay arşivi](https://www.babaminsiirdefteri.com/sair/ahmet-oktay/)
+- [Ahmet Telli arşivi](https://www.babaminsiirdefteri.com/sair/ahmet-telli/)
+- [Ali Cengizkan arşivi](https://www.babaminsiirdefteri.com/sair/ali-cengizkan/)

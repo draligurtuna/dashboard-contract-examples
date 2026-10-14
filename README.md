@@ -396,3 +396,75 @@ These links point to the documentation and current access details for my separat
 - [Trendline Retest Execution Matrix AGPro Series](https://www.agprolabs.com/product/trendline-retest-execution-matrix/)
 - [Volume Climax Trap Matrix AGPro Series](https://www.agprolabs.com/product/volume-climax-trap-matrix/)
 - [VWAP Acceptance Execution Matrix AGPro Series](https://www.agprolabs.com/product/vwap-acceptance-execution-matrix/)
+
+
+## More reading routes for the public example projects
+
+Optional original-page references from projects maintained by Ali Gürtuna. Keep each source title with the question you are reviewing. These routes provide context for the examples; they are not independent endorsements, trading outcomes, personal health assessments or reproduced literary texts.
+
+<details>
+<summary>AGProLabs chart-review reading routes</summary>
+
+- [Market breadth and watchlist context](https://www.agprolabs.com/insights/market-breadth-watchlist-context/)
+- [Pre-market stock review checklist](https://www.agprolabs.com/insights/pre-market-stock-screening-checklist/)
+- [Technical Analysis Tool Buying Checklist](https://www.agprolabs.com/insights/technical-analysis-tool-buying-checklist/)
+- [Choosing a TradingView Indicator for Swing Trading](https://www.agprolabs.com/insights/tradingview-indicator-for-swing-trading/)
+- [TradingView Tools for Traders with Limited Time](https://www.agprolabs.com/insights/tradingview-tools-for-busy-traders/)
+- [TradingView Indicator Costs: What to Check](https://www.agprolabs.com/insights/tradingview-indicator-setup-costs/)
+- [A Weekend Crypto Watchlist Review](https://www.agprolabs.com/insights/weekend-crypto-watchlist-review/)
+- [Liquidity sweeps and breakouts](https://www.agprolabs.com/insights/liquidity-sweep-vs-breakout/)
+- [Fair value gap context](https://www.agprolabs.com/insights/fair-value-gap-context/)
+- [High-score candidates that remain blocked](https://www.agprolabs.com/insights/high-score-blocked-screener/)
+- [Compare ETFs in a TradingView watchlist](https://www.agprolabs.com/insights/compare-etfs-tradingview-watchlist/)
+- [Breakout, continuation and recovery](https://www.agprolabs.com/insights/breakout-vs-continuation-vs-recovery/)
+- [Choose a paid TradingView indicator](https://www.agprolabs.com/insights/choose-paid-tradingview-indicator/)
+- [Invalidation and stop-loss references](https://www.agprolabs.com/insights/invalidation-vs-stop-loss/)
+- [Dynamic channels and manual trendlines](https://www.agprolabs.com/insights/dynamic-channels-vs-manual-trendlines/)
+- [Trend and range analysis workflows](https://www.agprolabs.com/insights/trend-vs-range-trading-workflow/)
+- [Long and short score conflicts](https://www.agprolabs.com/insights/long-short-score-conflict/)
+- [Qualified candidates near resistance](https://www.agprolabs.com/insights/near-resistance-qualified-candidate/)
+- [Channel-position percentages](https://www.agprolabs.com/insights/channel-position-percent/)
+- [Broken-channel support and resistance](https://www.agprolabs.com/insights/broken-channel-support-resistance/)
+- [](https://www.agprolabs.com/about/)
+- [](https://www.agprolabs.com/pricing/)
+- [](https://www.agprolabs.com/product-category/trading-suite/)
+- [](https://www.agprolabs.com/product-category/volume-trap/)
+- [](https://www.agprolabs.com/workflows/)
+
+</details>
+
+<details>
+<summary>Health education reading routes</summary>
+
+- [AliGurtuna health education](https://www.aligurtuna.com/)
+- [Waist-to-hip ratio tool explanation](https://www.aligurtuna.com/bel-kalca-orani-hesaplama/)
+- [Body-fat estimate tool explanation](https://www.aligurtuna.com/vucut-yag-orani-hesaplama-formulu/)
+- [Nefroloji ve Böbrek Sağlığı Rehberi](https://www.aligurtuna.com/nefroloji-ve-bobrek-sagligi/)
+- [Üroloji ve Erkek Sağlığı Rehberi](https://www.aligurtuna.com/erkek-sagligi-ve-uroloji/)
+- [Göğüs Cerrahisi Rehberi](https://www.aligurtuna.com/gogus-cerrahisi/)
+- [Romatoloji Rehberi](https://www.aligurtuna.com/romatoloji/)
+- [Diyet ve beslenme konu arşivi](https://www.aligurtuna.com/diyet-beslenme/)
+- [Uyku sağlığı konu arşivi](https://www.aligurtuna.com/uyku-sagligi/)
+- [Ağız ve Diş Sağlığı Rehberi](https://www.aligurtuna.com/agiz-dis-sagligi/)
+- [Alerji ve İmmünoloji Rehberi](https://www.aligurtuna.com/alerji-ve-immunoloji/)
+- [Çocuk Cerrahisi Rehberi](https://www.aligurtuna.com/cocuk-cerrahisi/)
+
+</details>
+
+<details>
+<summary>Literary reading routes</summary>
+
+- [Babamın Şiir Defteri](https://www.babaminsiirdefteri.com/)
+- [A. Kadir archive](https://www.babaminsiirdefteri.com/sair/a-kadir/)
+- [Abbas Sayar archive](https://www.babaminsiirdefteri.com/sair/abbas-sayar/)
+- [Abdülhak Hâmit Tarhan archive](https://www.babaminsiirdefteri.com/sair/abdulhak-hamit-tarhan/)
+- [Neyzen Tevfik archive](https://www.babaminsiirdefteri.com/sair/neyzen-tevfik/)
+- [Nilgün Marmara archive](https://www.babaminsiirdefteri.com/sair/nilgun-marmara/)
+- [Pir Sultan Abdal archive](https://www.babaminsiirdefteri.com/sair/pir-sultan-abdal/)
+- [Şeyh Galip archive](https://www.babaminsiirdefteri.com/sair/seyh-galip/)
+- [Nâbî archive](https://www.babaminsiirdefteri.com/sair/nabi/)
+- [Nedîm archive](https://www.babaminsiirdefteri.com/sair/nedim/)
+- [Nef’î archive](https://www.babaminsiirdefteri.com/sair/nefi/)
+- [Kaygusuz Abdal archive](https://www.babaminsiirdefteri.com/sair/kaygusuz-abdal/)
+
+</details>

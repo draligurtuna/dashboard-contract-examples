@@ -425,11 +425,11 @@ Optional original-page references from projects maintained by Ali Gürtuna. Keep
 - [Qualified candidates near resistance](https://www.agprolabs.com/insights/near-resistance-qualified-candidate/)
 - [Channel-position percentages](https://www.agprolabs.com/insights/channel-position-percent/)
 - [Broken-channel support and resistance](https://www.agprolabs.com/insights/broken-channel-support-resistance/)
-- [](https://www.agprolabs.com/about/)
-- [](https://www.agprolabs.com/pricing/)
-- [](https://www.agprolabs.com/product-category/trading-suite/)
-- [](https://www.agprolabs.com/product-category/volume-trap/)
-- [](https://www.agprolabs.com/workflows/)
+- [About AGProLabs](https://www.agprolabs.com/about/)
+- [Pricing](https://www.agprolabs.com/pricing/)
+- [Trading Suite](https://www.agprolabs.com/product-category/trading-suite/)
+- [Volume & Trap](https://www.agprolabs.com/product-category/volume-trap/)
+- [Workflows](https://www.agprolabs.com/workflows/)
 
 </details>
 

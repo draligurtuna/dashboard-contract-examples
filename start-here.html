@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Choose a Dashboard Contract Example | AGProLabs Engineering Notes</title>
+<meta name="description" content="A short selection map for nine independent dashboard contract examples: ranking, units, identity, readiness, review cursors, observations and display states.">
+<link rel="canonical" href="https://draligurtuna.github.io/dashboard-contract-examples/start-here.html">
+<style>
+:root{color-scheme:dark;--bg:#0f172a;--ink:#e2e8f0;--muted:#cbd5e1;--line:#334155;--blue:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,sans-serif}
+header{background:var(--blue);padding:2rem max(1rem,calc((100% - 1040px)/2));color:#f5f7fa}h1{font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.2;margin:.4rem 0}
+main{max-width:1080px;margin:auto;padding:1.5rem}nav a,a{color:#b8c7ff;text-underline-offset:.2em}header a{color:white}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:1rem}.card,aside{border:1px solid var(--line);border-radius:12px;padding:1.15rem;background:#142035}
+h2{font-size:1.2rem;margin:.1rem 0 .6rem}p{margin:.5rem 0}code{overflow-wrap:anywhere;font-size:.9em}aside{margin-top:1.5rem}
+a:focus-visible{outline:3px solid #f5bd5c;outline-offset:5px}footer{padding:1rem 0;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<header><nav aria-label="Project"><a href="./">Dashboard Contract Lab</a> · <a href="https://github.com/draligurtuna/dashboard-contract-examples">Source and test instructions</a></nav><h1>Choose the contract before the chart</h1><p>Nine independent examples. Pick the boundary your interface actually needs.</p></header>
+<main>
+<p>These educational examples use synthetic inputs. Each has a separate scope; they do not reproduce proprietary TradingView logic or validate a live feed.</p>
+<section class="cards" aria-label="Contract selection map">
+<article class="card"><h2>1. Rank normalized rows</h2><p>Order raw scores deterministically; preserve display rounding separately.</p><a href="./">Ranking lab</a> · <code>contracts.mjs</code></article>
+<article class="card"><h2>2. Convert a declared unit</h2><p>Keep invalid input distinct from an observed zero.</p><a href="./">Length conversion lab</a> · <code>contracts.mjs</code></article>
+<article class="card"><h2>3. Compare compatible metrics</h2><p>Require matching units, currency, interval and declared methodology before subtraction.</p><a href="https://github.com/draligurtuna/dashboard-contract-examples/blob/main/metric-contract.mjs">Metric comparison source</a></article>
+<article class="card"><h2>4. Declare series identity</h2><p>A short ticker label does not identify provider, session or adjustment policy.</p><a href="./series-identity-lab.html">Series identity lab</a></article>
+<article class="card"><h2>5. Assess snapshot readiness</h2><p>Coverage, confirmation and completed-close alignment are separate checks.</p><a href="./snapshot-readiness-lab.html">Snapshot readiness lab</a></article>
+<article class="card"><h2>6. Resume a review cursor</h2><p>Select the next stable identity without inventing visit or completion evidence.</p><a href="./review-cursor-lab.html">Review cursor lab</a></article>
+<article class="card"><h2>7. Capture a flat observation</h2><p>Copy selected primitive fields; freezing does not prove provenance or durable storage.</p><a href="https://github.com/draligurtuna/dashboard-contract-examples/blob/main/observation-record.mjs">Observation source</a></article>
+<article class="card"><h2>8. Display a declared metric</h2><p>Separate unavailable, malformed and observed-zero states.</p><a href="./metric-display-lab.html">Metric display lab</a></article>
+<article class="card"><h2>9. Interpret volume units</h2><p>Distinguish base quantity, quote amount, tick counts and unresolved contracts.</p><a href="./volume-unit-workbook.html">Volume unit workbook</a></article>
+</section>
+<aside aria-labelledby="context"><h2 id="context">Domain context from my own AGProLabs project</h2>
+<ul>
+<li><a href="https://www.agprolabs.com/insights/how-to-read-crypto-setup-planner-dashboard/">Read a candidate dashboard</a> before interpreting scores.</li>
+<li><a href="https://www.agprolabs.com/insights/warmup-missing-data-screener/">Distinguish warmup and missing data</a> from usable observations.</li>
+<li><a href="https://www.agprolabs.com/insights/confirmed-candles-repainting-tradingview/">Review confirmed-candle timing</a> separately from visual appearance.</li>
+<li><a href="https://www.agprolabs.com/insights/turnover-thresholds-volume-units/">Check turnover thresholds and volume units</a> before comparison.</li>
+</ul>
+<p>These are author-maintained reading references, not independent endorsements or evidence that the examples implement a linked product.</p></aside>
+<footer>By Ali Gürtuna / AGProLabs. Prepared with AI assistance. Follow the repository instructions to run the bounded fixtures; this navigation page makes no new test, accessibility-certification or performance claim. Educational analysis only; no financial advice, live signals or guaranteed outcomes.</footer>
+</main>
+</body>
+</html>

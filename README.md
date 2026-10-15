@@ -468,3 +468,162 @@ Optional original-page references from projects maintained by Ali Gürtuna. Keep
 - [Kaygusuz Abdal archive](https://www.babaminsiirdefteri.com/sair/kaygusuz-abdal/)
 
 </details>
+
+
+## Further source types for the review examples
+
+Optional navigation through the three projects maintained by Ali Gürtuna. Use a relevant original source for its purpose and limitations. These links do not extend the executable examples into a commercial trading engine, clinical assessment or literary authority. This navigation update was prepared with AI assistance.
+
+<details>
+<summary>AGProLabs collection and service navigation</summary>
+
+Choose a collection or guide by its analytical purpose. Read current payment and support information on the project website before selecting access.
+
+- [Collections](https://www.agprolabs.com/collections/)
+- [TradingView & Market Analysis Insights](https://www.agprolabs.com/insights/)
+- [Payment Guide](https://www.agprolabs.com/payment-guide/)
+- [Resolve access and payment questions with the right details](https://www.agprolabs.com/support/)
+
+</details>
+
+<details>
+<summary>More health topics and measurement-tool explanations</summary>
+
+Read the input definitions, units and stated limitations of a tool or educational article. These references are not implementations of the sample converter and do not validate a personal medical conclusion.
+
+- [Acil Tıp Rehberi](https://www.aligurtuna.com/acil-tip/)
+- [Alternatif Tıp ve GETAT Rehberi](https://www.aligurtuna.com/alternatif-tip-yontemleri/)
+- [Anestezi, Ağrı ve Yoğun Bakım Rehberi](https://www.aligurtuna.com/anestezi-agri-ve-yogun-bakim/)
+- [Bazal Metabolizma Hızı Hesaplama (BMH, BMR)](https://www.aligurtuna.com/bazal-metabolizma-hizi-hesaplama/)
+- [Cilt Maskeleri: Doğal Ev Yapımı Yüz Maskesi Nasıl Yapılır?](https://www.aligurtuna.com/cilt-maskeleri/)
+- [Çocuk Sağlığı ve Hastalıkları Rehberi](https://www.aligurtuna.com/cocuk-sagligi-ve-hastaliklari/)
+- [Dermatoloji, Cilt Bakımı ve Estetik Rehberi](https://www.aligurtuna.com/dermatoloji/)
+- [Diyabetik Ara Öğün Rehberi: Kan Şekeri İçin Ne Yemeli?](https://www.aligurtuna.com/diyabetik-ara-ogun-kan-sekeri-rehberi/)
+- [Endokrinoloji ve Diyabet Sağlığı Rehberi](https://www.aligurtuna.com/endokrinoloji-ve-diyabet/)
+- [Enfeksiyon Hastalıkları Rehberi](https://www.aligurtuna.com/enfeksiyon-hastaliklari/)
+- [Fizik Tedavi ve Rehabilitasyon Sağlığı](https://www.aligurtuna.com/fizik-tedavi-ve-rehabilitasyon/)
+- [Gastroenteroloji ve Sindirim Sağlığı](https://www.aligurtuna.com/gastroenteroloji/)
+- [Genel Cerrahi ve Güvenli Ameliyat Rehberi](https://www.aligurtuna.com/genel-cerrahi/)
+- [Genetik ve Nadir Hastalıklar Rehberi](https://www.aligurtuna.com/genetik-ve-nadir-hastaliklar/)
+- [Geriatri ve Yaşlı Sağlığı Rehberi](https://www.aligurtuna.com/geriatri-ve-yasli-sagligi/)
+- [Göğüs Hastalıkları ve Solunum Sağlığı Rehberi](https://www.aligurtuna.com/gogus-hastaliklari-ve-solunum-sagligi/)
+- [Göz Hastalıkları ve Göz Sağlığı Rehberi](https://www.aligurtuna.com/goz-hastaliklari-ve-sagligi/)
+- [Halk Sağlığı ve Koruyucu Hekimlik Rehberi](https://www.aligurtuna.com/halk-sagligi-ve-koruyucu-hekimlik/)
+- [Hematoloji ve Kan Hastalıkları Rehberi](https://www.aligurtuna.com/hematoloji/)
+- [İdeal Kilo Hesaplama Programı: Vücut Kitle İndeksi Hesabı](https://www.aligurtuna.com/ideal-kilo-hesaplama-programi/)
+- [Kadın Sağlığı, Hamilelik ve Doğum Rehberi](https://www.aligurtuna.com/kadin-sagligi-hamilelik-ve-dogum/)
+- [Kadınlarda Saç Dökülmesi Neden Olur? Nasıl Tedavi Edilir?](https://www.aligurtuna.com/kadinlarda-sac-dokulmesi/)
+- [Kalori Açığı Hesaplama: Kilo Verme Hızı Değerlendirme](https://www.aligurtuna.com/kalori-acigi-hesaplama-kilo-verme-hizi/)
+- [Kalp ve Damar Sağlığı Rehberi](https://www.aligurtuna.com/kalp-ve-damar-sagligi/)
+- [Kulak Burun Boğaz Hastalıkları Rehberi](https://www.aligurtuna.com/kulak-burun-bogaz-kbb-sagligi/)
+- [Laboratuvar Testleri ve Sağlık Tahlilleri](https://www.aligurtuna.com/laboratuvar-testleri-ve-tahlil/)
+- [Makro Besin Hesaplama: Günlük Makro Dağılımı Değerlendirme](https://www.aligurtuna.com/makro-besin-hesaplama-gunluk-makro-dagilimi/)
+- [Nöroloji ve Beyin Sağlığı Rehberi](https://www.aligurtuna.com/noroloji-ve-beyin-sagligi/)
+- [Onkoloji ve Kanser Tanısı Rehberi](https://www.aligurtuna.com/onkoloji/)
+- [Ortopedi ve Travma Sağlığı Rehberi](https://www.aligurtuna.com/ortopedi/)
+- [Plastik, Estetik ve Onarıcı Cerrahi](https://www.aligurtuna.com/plastik-estetik-cerrahi/)
+- [Genel Sağlık ve Yaşam Rehberi](https://www.aligurtuna.com/populer-saglik/)
+- [Protein İhtiyacı Hesaplama: Günlük Protein Planı Değerlendirme](https://www.aligurtuna.com/protein-ihtiyaci-hesaplama-gunluk-protein-plani/)
+- [Ruh Sağlığı ve Psikoloji Rehberi](https://www.aligurtuna.com/ruh-sagligi-ve-psikoloji/)
+- [Sağlıklı Yaşam Sırları ve Önerileri Rehberi](https://www.aligurtuna.com/saglikli-yasamin-sirlari/)
+- [Sık İdrara Çıkma Neden Olur? Nasıl Tedavi Edilir?](https://www.aligurtuna.com/sik-idrara-cikma/)
+- [Spor Hekimliği ve Egzersiz Sağlığı Rehberi](https://www.aligurtuna.com/spor-hekimligi-ve-egzersiz-sagligi/)
+- [Vitamin, Mineral ve Takviye Sağlığı](https://www.aligurtuna.com/vitaminler-mineraller-saglik-takviyeleri/)
+- [Yağsız Vücut Kütlesi Hesaplama: Vücut Kompozisyonu Değerlendirme](https://www.aligurtuna.com/yagsiz-vucut-kutlesi-hesaplama-vucut-kompozisyonu/)
+
+</details>
+
+<details>
+<summary>Additional self-awareness resource explanations</summary>
+
+Separate a questionnaire’s stated scope from a personal diagnosis. Review the purpose and limitations on the original Turkish resource page; this repository handles no questionnaire answers.
+
+- [Duygusal Hassasiyet Testi](https://www.aligurtuna.com/duygusal-hassasiyet-testi-duygusal-yuk-ve-duyarlilik-degerlendirme/)
+- [Duygusal Yeme Testi: Yeme Tutumu ve Açlık Dışı Yeme Değerlendirme](https://www.aligurtuna.com/duygusal-yeme-testi-yeme-tutumu-ve-aclik-disi-yeme-degerlendirme/)
+- [Duygusal Zeka Testi: Duyguları Anlama ve Yönetme Değerlendirme](https://www.aligurtuna.com/duygusal-zeka-testi-duygulari-anlama-ve-yonetme-degerlendirme/)
+- [İlişki Bağımlılığı Testi: Duygusal Bağımlılık ve Sınırlar](https://www.aligurtuna.com/iliski-bagimliligi-testi-duygusal-bagim-ve-sinirlar/)
+- [İmpostor Sendromu Testi: Başarıyı Sahiplenme Zorluğu](https://www.aligurtuna.com/impostor-sendromu-testi-basariyi-sahiplenme-zorlugu/)
+- [İş Stresi Testi: Çalışma Yükü ve Gerginlik Değerlendirme](https://www.aligurtuna.com/is-stresi-testi-calisma-yuku-ve-gerginlik-degerlendirme/)
+- [Karar Yorgunluğu Testi](https://www.aligurtuna.com/karar-yorgunlugu-testi-zihinsel-tukenme-ve-karar-zorlugu-degerlendirme/)
+- [Mükemmeliyetçilik Testi](https://www.aligurtuna.com/mukemmeliyetcilik-testi-kontrol-ve-hata-kaygisi-degerlendirme/)
+- [Öfke Kontrolü Testi: Öfke Yönetimi ve Tepki Düzeni Değerlendirme](https://www.aligurtuna.com/ofke-kontrolu-testi-ofke-yonetimi-ve-tepki-duzeni-degerlendirme/)
+- [Özgül Fobi Testi: Özel Korku ve Kaçınma Değerlendirme](https://www.aligurtuna.com/ozgul-fobi-testi-ozel-korku-ve-kacinma-degerlendirme/)
+- [Özgüven Testi: Kendine Güven Düzeyi Değerlendirme](https://www.aligurtuna.com/ozguven-testi-kendine-guven-duzeyi-degerlendirme/)
+- [Reddedilme Duyarlılığı Testi: İlişki ve Onay Hassasiyeti](https://www.aligurtuna.com/reddedilme-duyarliligi-testi-iliski-ve-onay-hassasiyeti/)
+- [Sağlık Anksiyetesi Testi: Hastalık Kaygısı Ön Değerlendirme](https://www.aligurtuna.com/saglik-anksiyetesi-testi-hastalik-kaygisi-on-degerlendirme/)
+- [Sınav Kaygısı Testi](https://www.aligurtuna.com/sinav-kaygisi-testi-performans-baskisi-ve-sinav-stresi-degerlendirme/)
+- [Sosyal Anksiyete Testi: Sosyal Kaygı Belirti Değerlendirme](https://www.aligurtuna.com/sosyal-anksiyete-testi-sosyal-kaygi-belirti-degerlendirme/)
+- [Sosyal Medya Bağımlılığı Testi: Ekran ve Kontrol Değerlendirme](https://www.aligurtuna.com/sosyal-medya-bagimliligi-testi-ekran-ve-kontrol-degerlendirme/)
+- [Uyku Kalitesi Testi: Uyku Düzeni ve Dinlenme Değerlendirme](https://www.aligurtuna.com/uyku-kalitesi-testi-uyku-duzeni-ve-dinlenme-degerlendirme/)
+
+</details>
+
+<details>
+<summary>Additional author archives and work reviews</summary>
+
+An author archive, a work review and a family note are different source types. Keep the named work and your own interpretation distinct. Only navigation links are included here; no poem or book text is reproduced.
+
+- [Abbas Sayar – Çelo (Eser İncelemesi)](https://www.babaminsiirdefteri.com/abbas-sayar-celo-eser-incelemesi/)
+- [Abbas Sayar – Yılkı Atı (Eser İncelemesi)](https://www.babaminsiirdefteri.com/abbas-sayar-yilki-ati-eser-incelemesi/)
+- [Abdülhak Şinasi Hisar – Çamlıca’daki Eniştemiz (Eser İncelemesi)](https://www.babaminsiirdefteri.com/abdulhak-sinasi-hisar-camlicadaki-enistemiz-eser-incelemesi/)
+- [Abdülhak Şinasi Hisar – Fahim Bey ve Biz (Eser İncelemesi)](https://www.babaminsiirdefteri.com/abdulhak-sinasi-hisar-fahim-bey-ve-biz-eser-incelemesi/)
+- [Adalet Ağaoğlu – Bir Düğün Gecesi (Eser İncelemesi)](https://www.babaminsiirdefteri.com/adalet-agaoglu-bir-dugun-gecesi-eser-incelemesi/)
+- [Adalet Ağaoğlu – Fikrimin İnce Gülü (Eser İncelemesi)](https://www.babaminsiirdefteri.com/adalet-agaoglu-fikrimin-ince-gulu-eser-incelemesi/)
+- [Adalet Ağaoğlu – Hayır… (Eser İncelemesi)](https://www.babaminsiirdefteri.com/adalet-agaoglu-hayir-incelemesi/)
+- [Adalet Ağaoğlu – Ölmeye Yatmak (Eser İncelemesi)](https://www.babaminsiirdefteri.com/adalet-agaoglu-olmeye-yatmak-eser-incelemesi/)
+- [Rüzgârlı Tepe: Şiir Kitabım](https://www.babaminsiirdefteri.com/ruzgarli-tepe-siir-kitabim-saban-gurtuna/)
+- [Şaban Gürtuna Kimdir? Emekli Öğretmen ve Şair](https://www.babaminsiirdefteri.com/saban-gurtuna/)
+- [A. Vahap Akbaş](https://www.babaminsiirdefteri.com/sair/a-vahap-akbas/)
+- [Abdülbaki Gölpınarlı](https://www.babaminsiirdefteri.com/sair/abdulbaki-golpinarli/)
+- [Abdülhak Şinasi Hisar](https://www.babaminsiirdefteri.com/sair/abdulhak-sinasi-hisar/)
+- [Abdülkadir Bulut](https://www.babaminsiirdefteri.com/sair/abdulkadir-bulut/)
+- [Abdullah Öztemiz Hacıtahiroğlu](https://www.babaminsiirdefteri.com/sair/abdullah-oztemiz-hacitahiroglu/)
+- [Adalet Ağaoğlu](https://www.babaminsiirdefteri.com/sair/adalet-agaoglu/)
+- [Agatha Christie](https://www.babaminsiirdefteri.com/sair/agatha-christie/)
+- [Ahmet Kutsi Tecer](https://www.babaminsiirdefteri.com/sair/ahmet-kutsi-tecer/)
+- [Ahmet Mithat Efendi](https://www.babaminsiirdefteri.com/sair/ahmet-mithat-efendi/)
+- [Ahmet Muhip Dıranas](https://www.babaminsiirdefteri.com/sair/ahmet-muhip-diranas/)
+- [Ahmet Selçuk İlkan](https://www.babaminsiirdefteri.com/sair/ahmet-selcuk-ilkan/)
+- [Ahmet Ümit](https://www.babaminsiirdefteri.com/sair/ahmet-umit/)
+- [Akgün Akova](https://www.babaminsiirdefteri.com/sair/akgun-akova/)
+- [Albert Camus](https://www.babaminsiirdefteri.com/sair/albert-camus/)
+- [Aldous Huxley](https://www.babaminsiirdefteri.com/sair/aldous-huxley/)
+- [Aleksandr Puşkin](https://www.babaminsiirdefteri.com/sair/aleksandr-puskin/)
+- [Alexandre Dumas](https://www.babaminsiirdefteri.com/sair/alexandre-dumas/)
+- [Alfonsina Storni](https://www.babaminsiirdefteri.com/sair/alfonsina-storni/)
+- [Alfred de Musset](https://www.babaminsiirdefteri.com/sair/alfred-de-musset/)
+- [Ali Püsküllüoğlu](https://www.babaminsiirdefteri.com/sair/ali-puskulluoglu/)
+- [Ataol Behramoğlu](https://www.babaminsiirdefteri.com/sair/ataol-behramoglu/)
+- [Attila İlhan](https://www.babaminsiirdefteri.com/sair/attila-ilhan/)
+- [Behçet Necatigil](https://www.babaminsiirdefteri.com/sair/behcet-necatigil/)
+- [Cahit Külebi](https://www.babaminsiirdefteri.com/sair/cahit-kulebi/)
+- [Cahit Sıtkı Tarancı](https://www.babaminsiirdefteri.com/sair/cahit-sitki-taranci/)
+- [Can Yücel](https://www.babaminsiirdefteri.com/sair/can-yucel/)
+- [Cemal Süreya](https://www.babaminsiirdefteri.com/sair/cemal-sureya/)
+- [Dadaloğlu](https://www.babaminsiirdefteri.com/sair/dadaloglu/)
+- [Ece Ayhan](https://www.babaminsiirdefteri.com/sair/ece-ayhan/)
+- [Edip Cansever](https://www.babaminsiirdefteri.com/sair/edip-cansever/)
+- [Enis Batur](https://www.babaminsiirdefteri.com/sair/enis-batur/)
+- [Fazıl Hüsnü Dağlarca](https://www.babaminsiirdefteri.com/sair/fazil-husnu-daglarca/)
+- [Fuzûlî](https://www.babaminsiirdefteri.com/sair/fuzuli/)
+- [Gülten Akın](https://www.babaminsiirdefteri.com/sair/gulten-akin/)
+- [Karacaoğlan](https://www.babaminsiirdefteri.com/sair/karacaoglan/)
+- [Köroğlu](https://www.babaminsiirdefteri.com/sair/koroglu/)
+- [Lale Müldür](https://www.babaminsiirdefteri.com/sair/lale-muldur/)
+- [Mehmet Akif Ersoy](https://www.babaminsiirdefteri.com/sair/mehmet-akif-ersoy/)
+- [Melih Cevdet Anday](https://www.babaminsiirdefteri.com/sair/melih-cevdet-anday/)
+- [Metin Altıok](https://www.babaminsiirdefteri.com/sair/metin-altiok/)
+- [Murathan Mungan](https://www.babaminsiirdefteri.com/sair/murathan-mungan/)
+- [Nâzım Hikmet Ran](https://www.babaminsiirdefteri.com/sair/nazim-hikmet/)
+- [Necip Fazıl Kısakürek](https://www.babaminsiirdefteri.com/sair/necip-fazil-kisakurek/)
+- [Oktay Rifat](https://www.babaminsiirdefteri.com/sair/oktay-rifat/)
+- [Orhan Veli Kanık](https://www.babaminsiirdefteri.com/sair/orhan-veli-kanik/)
+- [Özdemir Asaf](https://www.babaminsiirdefteri.com/sair/ozdemir-asaf/)
+- [Şaban Gürtuna](https://www.babaminsiirdefteri.com/sair/saban-gurtuna/)
+- [Sezai Karakoç](https://www.babaminsiirdefteri.com/sair/sezai-karakoc/)
+- [Şiir Türleri](https://www.babaminsiirdefteri.com/sair/siir-turleri/)
+- [Turgut Uyar](https://www.babaminsiirdefteri.com/sair/turgut-uyar/)
+- [Ümit Yaşar Oğuzcan](https://www.babaminsiirdefteri.com/sair/umit-yasar-oguzcan/)
+- [Yunus Emre](https://www.babaminsiirdefteri.com/sair/yunus-emre/)
+
+</details>

@@ -2,7 +2,9 @@
 
 Small, dependency-free JavaScript examples by Ali Gürtuna, creator of [AGProLabs](https://www.agprolabs.com/).
 
-A dashboard should have a clear data contract before visual styling. This repository makes eight narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, metric comparison with explicit provenance boundaries, declared series identity, snapshot readiness, stable-ID review selection, flat observation capture, and explicit metric availability/display units.
+A dashboard should have a clear data contract before visual styling. This repository makes nine narrow contracts executable: deterministic ranking of already-normalized rows, unit-aware conversion with explicit invalid states, metric comparison with explicit provenance boundaries, declared series identity, snapshot readiness, stable-ID review selection, flat observation capture, explicit metric availability/display units, and declared volume-unit interpretation.
+
+[Choose an example in the short contract map](https://draligurtuna.github.io/dashboard-contract-examples/start-here.html).
 
 ## Interactive lab
 

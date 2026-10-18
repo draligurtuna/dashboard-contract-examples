@@ -1,0 +1,36 @@
+{
+  "$schema": "https://docs.page/schema.json",
+  "name": "AGProLabs Engineering Notes",
+  "description": "Executable JavaScript contracts for deterministic dashboard ranking, explicit units, source identity and reproducible reading notes. By Ali Gürtuna.",
+  "theme": {
+    "primary": "#2563EB",
+    "primaryLight": "#2563EB",
+    "primaryDark": "#818CF8"
+  },
+  "header": {
+    "links": [
+      { "title": "Interactive examples", "href": "https://draligurtuna.github.io/dashboard-contract-examples/start-here.html" },
+      { "title": "AGProLabs", "href": "https://www.agprolabs.com/" }
+    ]
+  },
+  "sidebar": [
+    {
+      "group": "Learn the contracts",
+      "pages": [
+        { "title": "Start here", "href": "/" },
+        { "title": "Contract reference", "href": "/contracts" },
+        { "title": "Reading workflow", "href": "/reading-workflow" }
+      ]
+    },
+    {
+      "group": "Choose source material",
+      "pages": [
+        { "title": "Reference routes", "href": "/reference-routes" }
+      ]
+    }
+  ],
+  "content": { "headerDepth": 3, "showPageTitle": true },
+  "seo": { "noindex": false },
+  "social": { "github": "https://github.com/draligurtuna/dashboard-contract-examples" },
+  "mcp": { "enabled": false }
+}

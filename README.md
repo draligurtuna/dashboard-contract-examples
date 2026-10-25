@@ -629,3 +629,13 @@ An author archive, a work review and a family note are different source types. K
 - [Yunus Emre](https://www.babaminsiirdefteri.com/sair/yunus-emre/)
 
 </details>
+
+
+## Selected source routes for manual review
+
+These original pages are maintained by the repository author. Use them for their scope and sources; the sample code does not validate trading outcomes, individual medical assessments or literary interpretations.
+
+- [Circumcision timing — educational reading and clinical context](https://www.aligurtuna.com/sunnet-ne-zaman-yapilmali/)
+- [PubMed and MEDLINE — Turkish research-search guide](https://www.aligurtuna.com/pubmed-medline-turkce-arama/)
+- [Mustafa Kemal Atatürk — works, reviews and summaries](https://www.babaminsiirdefteri.com/sair/mustafa-kemal-ataturk/)
+- [Choosing an e-book reader for novels, poetry and PDF](https://www.babaminsiirdefteri.com/e-kitap-okuyucu-secimi/)

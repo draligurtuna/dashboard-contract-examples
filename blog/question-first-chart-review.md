@@ -66,3 +66,40 @@ An integrated workspace can reduce switching between views. Its engineering chal
 The repository's synthetic examples explore related software boundaries, such as stable identity, explicit unavailable states and snapshot readiness. Their tests establish only the specific fixture behavior documented in the repository. They do not validate the commercial products, live market data or trading outcomes.
 
 This is a software-interface evaluation note. Analytical outputs require broader context and independent judgment; trading involves risk. No automated execution or outcome guarantee is implied.
+
+## Compare observations without erasing their context
+
+Use a compact comparison record when two interfaces appear to disagree. A value is comparable only after the record identifies what it measures.
+
+| Record field | Keep explicit | Do not substitute |
+| --- | --- | --- |
+| Instrument | Provider, full symbol and spot or perpetual contract | A ticker fragment that hides the instrument kind |
+| Time basis | Selected interval and the source candle's timestamp | The time you happened to open the page |
+| Measurement | Field name, value and stated unit | A similarly colored number with another definition |
+| State | Confirmation, readiness and any displayed blocker | A score standing in for the complete state |
+| Review question | Discovery, structural location or integrated context | A claim that the interface covers every task |
+
+These are interface-review fields, not a claim that every product exports this exact record.
+
+### Three examples of a comparison that needs another check
+
+- **Same ticker, different instrument:** a spot observation and a perpetual-contract observation belong to different source contexts. Record the distinction before discussing an apparent mismatch.
+- **Same score, different readiness:** a candidate with a blocker and one without it do not have the same displayed state. Preserve both the score and the stated reason; do not relabel either observation to make the rows agree.
+- **Same chart, different units:** a channel price, an ATR distance and a percentage position answer different questions. Read their definitions before putting them into one comparison column.
+
+A useful outcome of this review can be “not comparable yet”. That is an explicit result, rather than a missing answer to replace with an assumption.
+
+## Copyable review note
+
+```text
+Review question:
+Original source and observation date:
+Provider / full symbol / instrument kind:
+Selected interval / source candle time:
+Field / value / unit:
+Readiness / confirmation / blocker:
+Comparable with the other observation? yes / no / unresolved
+Reason and next source check:
+```
+
+Keep this note factual. It records what was observed and what remains unresolved; it neither validates an analytical method nor selects a trade. Public examples should use synthetic records rather than private account or position details.

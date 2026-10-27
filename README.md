@@ -639,3 +639,14 @@ These original pages are maintained by the repository author. Use them for their
 - [PubMed and MEDLINE — Turkish research-search guide](https://www.aligurtuna.com/pubmed-medline-turkce-arama/)
 - [Mustafa Kemal Atatürk — works, reviews and summaries](https://www.babaminsiirdefteri.com/sair/mustafa-kemal-ataturk/)
 - [Choosing an e-book reader for novels, poetry and PDF](https://www.babaminsiirdefteri.com/e-kitap-okuyucu-secimi/)
+
+
+## Reference Route Explorer
+
+[Open the Reference Route Explorer](https://draligurtuna.github.io/dashboard-contract-examples/reference-route-explorer.html) to inspect and filter a selected 3,215-route dataset from two projects maintained by the author: 300 health-information routes and 2,915 poetry or literature routes. This standalone page adds no dependencies to the existing labs.
+
+The example classifies absolute HTTPS URLs by declared host and path shape. It distinguishes content routes, literary category paths and numbered archive pagination; it rejects malformed, non-HTTPS and out-of-scope URLs. Search and source/type filters are local, and CSV export follows the active filters. Static source links remain available without JavaScript.
+
+This is a URL-structure and provenance demonstration. It does not fetch destination pages, establish their availability or indexing, verify clinical content, reproduce poems, or independently endorse the linked projects. Some navigation labels come from URL paths. The dataset is the selected inventory supplied on 26 October 2026 rather than a complete crawl of either website.
+
+Local browser checks covered blank/HTTP/out-of-scope/valid pagination inputs, the 300-route health filter, the 119-route literary category filter, a single-result search and a matching two-line CSV download (header plus one result). These checks cover this example, not all destination content or all browsers.

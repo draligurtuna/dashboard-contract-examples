@@ -4,8 +4,6 @@ date: 2026-10-27
 description: Separate discovery, structure and integrated review before choosing a chart-analysis interface.
 ---
 
-# A question-first contract for chart-review interfaces
-
 An analytical dashboard becomes easier to evaluate when its reader can finish one sentence: “I opened this interface to answer…”. That sentence gives the interface a useful boundary. Without it, a colorful table can mix instrument selection, chart location and risk review into one apparently decisive number.
 
 This note explains a small evaluation method for chart-analysis interfaces. It accompanies the independent examples in the dashboard-contract-examples repository. I maintain [AGProLabs](https://www.agprolabs.com/), so the product references below are references to my own work, rather than independent endorsements. This note was prepared with AI assistance.
